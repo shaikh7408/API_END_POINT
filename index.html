@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> Arma Healthcare Inc</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/Logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT US</a></li>
+                    <li><a href="">EQUIPMENTS</a></li>
+                    <li><a href="">GALLERY</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Arma Healthcare Inc</h1>
+        <p>Arma Healthcare was founded with a vision to ensure accessibility of best Ophthalmic Equipments, instruments & 
+            consumables of the industry to all Ophthalmologist at highly affordable prices.
+            <br>Arma with its dedicated team strive to bring novel Introduction, 
+            highly effective techniques, validated with the scientific support provided 
+            by the medical profession in order to fully demonstrate the clinical benefits.  
+            </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+    </div>        
+    </section>
+    <!--Product-->
+    <section class="product">
+        <h1>OUR PRODUCT</h1>
+        <p>Arma Healthcare Inc. Provide all types of Ophthalmic Micro Surgical Knives, Instruments & Consumables</p>
+       
+        <div class="row">
+            <div class="product-col">
+                <h3>Instruments</h3>
+                <p>Arma Edge Ophthalmic Micro Surgery Knives are available in standard & customize size at competitive Prices.</p>
+            </div>
+            <div class="product-col">
+                <h3>Consumables</h3>
+                <p>Arma Edge Ophthalmic Micro Surgery Knives are available in standard & customize size at competitive Prices.</p>
+            </div>
+            <div class="product-col">
+                <h3>Surgical Knives</h3>
+                <p>Arma Edge Ophthalmic Micro Surgery Knives are available in standard & customize size at competitive Prices.</p>
+            </div>
+        </div>
+    </section>
+    <!-------testimonials------->
+    <section class="testimonials">
+        <h1>What Our Customer Says</h1>
+        <p>Arma with its dedicated team strive to bring novel Introduction.</p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="image/nazim.jpg">
+                <div>
+                    <p>Arma with its dedicated team strive to bring novel Introduction, 
+                        highly effective techniques, validated with the scientific support provided 
+                        by the medical profession in order to fully demonstrate the clinical benefits.</p>
+                        <h3>Nazim R2H</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="image/img32.jpeg">
+                <div>
+                    <p>Arma with its dedicated team strive to bring novel Introduction, 
+                        highly effective techniques, validated with the scientific support provided 
+                        by the medical profession in order to fully demonstrate the clinical benefits.</p>
+                        <h3>Sonal</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+<!---Call To Action--->
+<section class="cta">
+    <h1>Enroll For Our Various Online Support<br> Anywhere From The World</h1>
+    <a href="Contact.html" class="hero-btn">Contact US</a>
+</section>
+<!---Footer--->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Arma Healthcare was founded with a vision to ensure accessibility of best Ophthalmic<br> Equipments, instruments & 
+        consumables of the industry to all Ophthalmologist at highly affordable prices.</p>
+        <div class="icons">
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by UBAID</p>
+</section>
+<!---JavaScript--->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
